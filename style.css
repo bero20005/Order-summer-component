@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+body {
+  background-image: url(./pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: #e0e8ff;
+}
+
+.main-img {
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+.container {
+  width: 450px;
+  height: 697px;
+  background: white;
+  border-radius: 20px;
+}
+.title {
+  display: inline-block;
+  margin-left: 50px;
+  margin-top: 20px;
+}
+
+.title h1 {
+  font-weight: 900;
+  font-size: 26px;
+  text-align: center;
+  color: #1f2e55;
+  line-height: 37.04px;
+  font-family: red Hat display, sans-serif;
+  width: 354px;
+  height: 37px;
+}
+.about {
+  font-family: red Hat Display, sans-serif;
+  font-weight: 500px;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #717fa6;
+  width: 354px;
+  height: 78px;
+  margin-top: 20px;
+}
+.offers {
+  display: flex;
+  align-items: center;
+  background: #f7f9ff;
+  margin-top: 10px;
+  border-radius: 10px;
+  width: 354px;
+  height: 98px;
+}
+.offers img {
+  width: 48px;
+  height: 48px;
+  margin-left: 20px;
+}
+.price {
+  padding: 10px 10px 10px 10px;
+}
+h3 {
+  margin-left: 10px;
+  margin-bottom: 10px;
+  width: 111.71px;
+  height: 21px;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 21.17px;
+  font-family: Red Hat display, sans-serif;
+  color: #1f2e55;
+}
+
+p {
+  width: 92px;
+  height: 21px;
+  font-weight: 500;
+  font-family: Red Hat display, sans-serif;
+  font-size: 16px;
+  line-height: 21.17px;
+  color: #717fa6;
+  margin-left: 15px;
+}
+a {
+  margin-left: 70px;
+  width: 52px;
+  height: 19px;
+  font-weight: 700;
+  font-family: Red Hat display, sans-serif;
+  font-size: 14px;
+  line-height: 18.52px;
+  text-decoration: line, underline;
+  color: #382ae1;
+}
+.pay {
+  margin-top: 30px;
+  width: 354px;
+  height: 50px;
+  border-radius: 20px;
+  background: #382ae1;
+ border: none;
+  color: white;
+  font-weight: 900;
+  font-size: 15px;
+  font-family: Outfit, sans-serif;
+  line-height: 19.85px;
+  text-align: center;
+}
+
+.order {
+  all: unset;
+  font-weight: 900;
+  line-height: normal;
+  margin-top: 50px;
+  margin-left: 170px;
+  color: #717fa6;
+  font-family: Red Hat display, sans-serif;
+
+}
+
+
+.pay:hover{
+  cursor: pointer;
+  background: #766cf1;
+}
+
+a:hover {
+  color: #766cf1;
+  cursor: pointer;
+}
+.order:hover {
+  cursor: pointer;
+  color: #1f2e55;
+
+}
